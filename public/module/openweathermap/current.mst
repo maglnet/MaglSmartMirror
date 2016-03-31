@@ -1,0 +1,38 @@
+<style>
+    .owm-module .current {
+        display: inline-block;
+    }
+
+    .owm-module .current .addition {
+        font-size: 0.5em;
+    }
+
+    .owm-module .current .temp {
+        font-size: 1.5em;
+    }
+</style>
+<div class="owm-module">
+    <div class="current">
+        <div class="addition">
+            <div style="float:left;">
+                <i class="wi wi-sunrise"></i> {{current.sunrise}}
+            </div>
+            <div style="float:right;">
+                <i class="wi wi-sunset"></i> {{current.sunset}}
+            </div>
+            <div style="clear: both;"></div>
+        </div>
+        <div class="temp">
+            <i class="wi wi-owm-{{current.dayNight}}-{{current.raw.weather.0.id}}"></i> {{current.temp}} °C
+        </div>
+        <div class="addition">
+            <div style="float:left;">
+                {{current.tempMin}} °C
+            </div>
+            <div style="float:right;">
+                {{current.tempMax}} °C
+            </div>
+            <div style="clear: both;"></div>
+        </div>
+    </div>
+</div>

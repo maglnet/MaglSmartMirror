@@ -1,0 +1,17 @@
+<style>
+    .clock-module {
+        display: inline-block;
+    }
+
+    .clock-module .time {
+        font-size: 2em;
+    }
+
+    .clock-module .date {
+        font-size: 0.5em;
+    }
+</style>
+<div class="clock-module">
+    <div class="date">{{date}}</div>
+    <div class="time">{{time}}</div>
+</div>

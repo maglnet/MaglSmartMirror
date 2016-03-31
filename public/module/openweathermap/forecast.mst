@@ -1,0 +1,31 @@
+<style>
+    .owm-module .forecast {
+        color: #bbb;
+        margin-top: 2em;
+        font-size: 0.5em;
+        padding-left: 20%;
+    }
+
+    .owm-module .forecast table {
+        width: 100%;
+    }
+
+    .owm-module .forecast .wi {
+        margin: 0 10px 0 10px;
+    }
+</style>
+<div class="owm-module">
+    <div class="forecast">
+        <table>
+            {{#forecast.list}}
+                <tr>
+                    <td>{{#dayName}}{{dt}}{{/dayName}}</td>
+                    <td><i class="wi wi-owm-{{weather.0.id}}"></i></td>
+                    <td style="text-align: right;">{{#round}}{{temp.min}}{{/round}}</td>
+                    <td style="text-align: right;">{{#round}}{{temp.max}}{{/round}}</td>
+                    <td>°C</td>
+                </tr>
+            {{/forecast.list}}
+        </table>
+    </div>
+</div>

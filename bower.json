@@ -1,0 +1,27 @@
+{
+  "name": "MaglSmartMirror",
+  "authors": [
+    "Matthias Glaub <magl@magl.net>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "http://magl.net",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/components/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "mustache.js": "^2.2.1",
+    "jquery": "^2.2.2",
+    "moment": "momentjs#^2.12.0",
+    "weather-icons": "^2.0.10",
+    "font-awesome": "font-awsome#^4.5.0",
+    "annyang": "^2.3.0"
+  }
+}

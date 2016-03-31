@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <title>MaGlSmartMirror</title>
+
+    <link rel="manifest" href="manifest.webmanifest"/>
+
+    <link href="css/styles.css" rel="stylesheet"/>
+    <link href="components/weather-icons/css/weather-icons.min.css" rel="stylesheet"/>
+
+    <!--<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>-->
+    <link rel="stylesheet" href="components/font-awesome/css/font-awesome.min.css">
+
+    <script src="components/annyang/annyang.min.js"></script>
+    <script src="components/jquery/dist/jquery.min.js"></script>
+    <script src="components/mustache.js/mustache.js"></script>
+    <script src="components/moment/min/moment-with-locales.min.js"></script>
+
+    <script src="js/main.js" type="application/javascript"></script>
+
+</head>
+<body>
+
+<div style="position:absolute; left:20px; top:20px">
+    <div id="module-clock"><i class="fa fa-spin fa-circle-o-notch"></i></div>
+
+    <audio id="audio">
+        <source src="" type="audio/mpeg">
+        Your browser does not support the audio tag.
+    </audio>
+</div>
+
+<div style="position:absolute; text-align:center; right:20px; top:20px;">
+    <div id="module-openweathermap"><i class="fa fa-spin fa-circle-o-notch"></i></div>
+    <div id="module-openweathermap-forecast"><i class="fa fa-spin fa-circle-o-notch"></i></div>
+</div>
+
+<div id="module-news" style="position:absolute; left: 0px; right:0px; bottom:20px; text-align:center;">
+</div>
+
+
+<div id="module-video">
+    <video id="video" width="100%" height="98%">
+        <source src="" type=""/>
+    </video>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+{
+  "_modules": [
+    "clock",
+    "news",
+    "openweathermap",
+    "video",
+    "videoFromRss"
+  ],
+  "locale": "de",
+  "news": {
+    "urls": [
+      "http://www.spiegel.de/schlagzeilen/tops/index.rss"
+    ]
+  },
+  "clock": {
+  },
+  "openweathermap": {
+    "id": 2925533,
+    "apiKey": "",
+    "units": "metric"
+  },
+  "video": {
+  },
+  "videoFromRss": {
+  }
+}
