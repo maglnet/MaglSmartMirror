@@ -13,6 +13,7 @@ THIS PROJECT IS IN AN EARLY STATE, NOT SURE, IF IT WILL BE MAINTAINED.
 * current weather using [OpenWeatherMap API](http://openweathermap.org/api) - you need to get an api key for this
 * weather forecast using [OpenWeatherMap API](http://openweathermap.org/api) - you need to get an api key for this
 * top news from [Spiegel ONLINE](http://www.spiegel.de/)
+* gas prices from tankerkoenig api [Tankerkönig](https://creativecommons.tankerkoenig.de/)
 * voice recognition
   * "news" - plays the latest clip of the [Tagesschau in 100 Sekunden](http://www.tagesschau.de/100sekunden/index.html)
   * "radio" - plays HR3 - http://www.hr3.de/
