@@ -22,5 +22,14 @@
   "video": {
   },
   "videoFromRss": {
+  },
+  "tankerkoenig": {
+    "apiKey" : "00000000-0000-0000-0000-000000000002",
+    "showTypes": ["e5", "e10"],
+    "stations": {
+      "4429a7d9-fb2d-4c29-8cfe-2ca90323f9f8": {"order": 1, "name": "Station A"},
+      "446bdcf5-9f75-47fc-9cfa-2c3d6fda1c3b": {"order": 2, "name": "Closed Station"},
+      "60c0eefa-d2a8-4f5c-82cc-b5244ecae955": {"order": 3, "name": "Best Station"}
+    }
   }
 }
