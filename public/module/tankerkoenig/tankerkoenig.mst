@@ -1,0 +1,48 @@
+<style>
+    .tankerkoenig-module{
+        color: #bbb;
+        margin-top: 1em;
+        font-size: 0.4em;
+    }
+
+    .tankerkoenig-module .station table {
+        width: 100%;
+    }
+
+    .tankerkoenig-module .station table th {
+        color:#fff;
+        text-align:left;
+        padding-top: 0.5em;
+    }
+
+    .tankerkoenig-module .station table .closed {
+        color: #777;
+    }
+
+   .tankerkoenig-module .station table td:first-letter {
+        text-transform: uppercase;
+    }
+
+    .tankerkoenig-module .station .wi {
+        margin: 0 10px 0 10px;
+    }
+</style>
+<div class="tankerkoenig-module">
+    <div class="station">
+        <table>
+        {{#stations}}
+            <tr>
+            <th colspan="2" class="{{status}}"><div><i class="fas fa-door-{{status}}"></i>{{stationInfo.name}}</div></th>
+            </tr>
+            {{#prices}}
+                {{#price}}
+                <tr>
+                    <td>{{type}}</td>
+                    <td>{{price}} €</td>
+                </tr>
+                {{/price}}
+            {{/prices}}
+        {{/stations}}
+        </table>
+    </div>
+</div>
